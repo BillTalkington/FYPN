@@ -1,0 +1,54 @@
+/* Header */
+
+.header {
+		display: table;
+    // position: relative;
+    height: 100vh;
+    background: url(../img/jumonville.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header img {
+   max-width: 50%;
+   align-self: center;
+}
+
+/* Text */
+.text-centered {
+	text-align: center;
+}
+
+.text-vertical-centered {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text-icons {
+	color: #FFF;
+}
+
+
+
+.container-activities, .container-members{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.activity, .member {
+	background: orange;
+	margin-bottom: 1em;
+}
+
+.activity {
+	max-width: 300px;
+}
+
+.member {
+	max-width: 250px;
+}
