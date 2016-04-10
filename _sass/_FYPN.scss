@@ -1,22 +1,50 @@
 /* Header */
 
 .header {
-		display: table;
-    // position: relative;
-    height: 100vh;
-    background: url(../img/jumonville.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	display: table;
+	// position: relative;
+	height: 100vh;
+	background: url(../img/jumonville.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .header img {
-   max-width: 50%;
-   align-self: center;
+	max-width: 50%;
+  align-self: center;
+}
+
+/* About Us */
+
+.about-us {
+  padding: 50px 0;
+}
+
+/* Activities */
+
+.activities {
+	background: #40abd9;
+  padding: 50px 0;
+  color: white;
+}
+
+.activity {
+	// padding: 0 1em;
 }
 
 /* Text */
+h2 {
+	margin-top: 0.5em;
+	font-size: 2em;
+}
+
+.statement {
+	margin-bottom: 1.3em;
+	font-weight: lighter;
+}
+
 .text-centered {
 	text-align: center;
 }
@@ -28,9 +56,12 @@
 }
 
 .text-icons {
-	color: #FFF;
+	color: #000;
 }
 
+.fa-circle {
+	color: #eec10b;
+}
 
 
 .container-activities, .container-members{
@@ -41,7 +72,7 @@
 }
 
 .activity, .member {
-	background: orange;
+	// background: orange;
 	margin-bottom: 1em;
 }
 
@@ -49,6 +80,21 @@
 	max-width: 300px;
 }
 
+.members {
+	background: #f2f2f2
+}
+
 .member {
 	max-width: 250px;
+}
+
+.member-statement {
+	padding: 0 15vw;
+	margin-bottom: 2em;
+}
+
+.horz-bar {
+	border: 0;
+	border-top: 1px solid #eee;
+  max-width: 100px;
 }
