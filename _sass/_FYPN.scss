@@ -18,15 +18,14 @@
 
 /* About Us */
 
-.about-us {
-  padding: 50px 0;
-}
+// .about-us {
+//   padding: 50px 0;
+// }
 
 /* Activities */
 
 .activities {
 	background: #40abd9;
-  padding: 50px 0;
   color: white;
 }
 
@@ -38,6 +37,10 @@
 h2 {
 	margin-top: 0.5em;
 	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.25em;
 }
 
 .lead-statement {
@@ -56,7 +59,7 @@ h2 {
 }
 
 .text-icons {
-	color: #000;
+	color: $text-color;
 }
 
 .fa-circle {
@@ -77,11 +80,12 @@ h2 {
 }
 
 .activity {
-	max-width: 300px;
+	max-width: 200px;
 }
 
 .members {
-	background: #f2f2f2
+	background: #f2f2f2;
+	padding: 50px 0;
 }
 
 .member {
@@ -95,6 +99,40 @@ h2 {
 
 .horz-bar {
 	border: 0;
-	border-top: 1px solid #eee;
+	border-top: 1px solid;
   max-width: 100px;
+}
+
+section.activities > hr {
+	border-top-color: #eee;
+}
+
+section.members > hr {
+	border-top-color: #222;
+}
+
+.copyright {
+	color: #777;
+}
+
+.list-unstyled {
+	margin: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+section {
+	padding: 50px 0;
 }
