@@ -100,13 +100,14 @@ h4 {
 	border: 0;
 	border-top: 1px solid;
   max-width: 100px;
+  margin: 0 auto 2em;
 }
 
 section.activities > hr {
 	border-top-color: #eee;
 }
 
-section.members > hr {
+section.members, section.upcoming-events > hr {
 	border-top-color: #222;
 }
 
