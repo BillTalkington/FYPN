@@ -1,0 +1,5 @@
+application:
+  title: FYPN Membership Application
+  description:
+  published-date: # Optional, e.g. 1987-01-23
+  path: /downloads/FYPN-Membership-Application.pdf # E.g. /resources/my-file.pdf
