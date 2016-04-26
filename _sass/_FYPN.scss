@@ -72,6 +72,7 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: space-around;
+	padding: 0 5vw;
 }
 
 .activity, .member {
@@ -85,11 +86,11 @@ h4 {
 
 .members {
 	background: #f2f2f2;
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .member {
-	max-width: 180px;
+	// max-width: 180px;
 }
 
 .member-statement, .join-statement, .lead-statement {
