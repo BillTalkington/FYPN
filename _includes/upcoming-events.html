@@ -18,7 +18,7 @@
 	{% for event in site.data.events %}
 		<div class="event">
 			<h3>{{ event.title }}</h4>
-  		<h4>Time/Date: {{ event.start-date | date: '%R, %b %-d, %Y' }}</h4>
+  		<h4>Time/Date: {{ event.date | date: '%R, %b %-d, %Y' }}</h4>
   		<h4>Location: {{ event.location }}</h4>
   		<h4>Address: {{ event.address }}</h4>
   		<p class="event-statement"> {{ event.description }}</p>
