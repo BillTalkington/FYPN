@@ -1,4 +1,4 @@
-<section id="upcoming-events" class="upcoming-events text-centered">
+<!-- <section id="upcoming-events" class="upcoming-events text-centered">
 	<h2>Upcoming Events</h2>
 	<hr class="horz-bar">
   	<div class="event">
@@ -6,4 +6,22 @@
   		<h4>Location: LOCATION</h4>
   		<p class="event-statement">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
   	</div>
+</section> -->
+<!-- ############################################## -->
+
+	
+
+
+<section id="upcoming-events" class="upcoming-events text-centered">
+	<h2>Upcoming Events</h2>
+	<hr class="horz-bar">
+	{% for event in site.data.events %}
+		<div class="event">
+			<h3>{{ event.title }}</h4>
+  		<h4>Time/Date: {{ event.start-date | date: '%R, %b %-d, %Y' }}</h4>
+  		<h4>Location: {{ event.location }}</h4>
+  		<h4>Address: {{ event.address }}</h4>
+  		<p class="event-statement"> {{ event.description }}</p>
+  	</div>
+  {% endfor %}
 </section>

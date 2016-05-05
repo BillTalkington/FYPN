@@ -39,8 +39,12 @@ h2 {
 	font-size: 1.5em;
 }
 
+h3 {
+	font-size: 1.35em;
+}
+
 h4 {
-	font-size: 1.25em;
+	font-size: 1.2em;
 }
 
 .lead-statement {
@@ -92,16 +96,16 @@ h4 {
 	// max-width: 180px;
 }
 
-.member-statement, .join-statement, .lead-statement {
+.member-statement, .join-statement, .lead-statement, .event-statement {
 	padding: 0 15vw;
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 }
 
 .horz-bar {
 	border: 0;
 	border-top: 1px solid;
   max-width: 100px;
-  margin: 0 auto 2em;
+  margin: 0 auto 1em;
 }
 
 section.activities > hr {
@@ -110,6 +114,14 @@ section.activities > hr {
 
 section.members, section.upcoming-events > hr {
 	border-top-color: #222;
+}
+
+.event {
+	margin: 1.5em 0;
+}
+
+.event h3 {
+	font-weight: bold;
 }
 
 .copyright {
@@ -135,5 +147,5 @@ section.members, section.upcoming-events > hr {
 
 
 section {
-	padding: 50px 0;
+	padding: 2em 0;
 }
