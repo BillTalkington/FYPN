@@ -1,10 +1,18 @@
 - title: Lunch and Learn
-  date: 2016-05-18 11:30 - 14:00
+  date: 2016-05-18
+  time: 11:30AM-1:00PM
   location: Fayette County Chamber of Commerce 
   address: 65 W Main St. Suite 107, Uniontown, PA 15401
   description: '“Not Your Father’s Financial Planner: Financial Planning in Today’s World”. Boxed lunches will be available for purchase.' 
-- title: Super Cool Event!
-  date: 2016-05-30 17:00
-  location: The Coolest Spot in Town
-  address: 5678 Elm St., Uniontown, PA 15401
-  description: Come join us for the coolest discussions and activities in Uniontown!
+- title: Final Friday
+  date: 2016-05-27
+  time: 5:00-7:00PM
+  location: Hilton Garden Inn
+  address: 555 Synergy Drive, Uniontown, PA 15401
+  description: Join us for our relaxed, monthly get-together.
+- title: Block Party!
+  date: 2016-06-09
+  time: 5:30-8:00PM
+  location: First Niagara Bank
+  address: 19 Beeson Ave, Uniontown, PA 15401
+  description: Join FYPN, the Chamber Board, and other local professionals at this great outdoor event!
