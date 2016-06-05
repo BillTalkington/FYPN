@@ -1,3 +1,5 @@
+
+
 /* Header */
 
 .header {
@@ -70,13 +72,27 @@ h4 {
 }
 
 
-.container-activities, .container-members{
+.container-activities, .container-members {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: space-around;
 	padding: 0 5vw;
 }
+
+// @media (min-width: 769px) {
+// 	.container-members {
+// 		padding: 0 20vw;
+// 	}
+// }
+
+@media (min-width: 769px) {
+
+	.container-members {
+		padding: 0 15vw;
+	}	
+}
+
 
 .activity, .member {
 	// background: orange;

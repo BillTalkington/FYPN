@@ -1,6 +1,17 @@
 <section id="feature-event" class="feature-event">
   <div class="text-centered">
     <h2>FYPN Feature Event -- Wing Thing!</h2>
-    <p class="lead-statement">Description/purpose of Wing Thing, graphic(s), and associated documents (e.g. flyer)</p>
+    <hr class="horz-bar">
+    <div class="event">
+    	{% assign event = site.data.feature_event.wing_thing %}
+      <h3>** {{ event.title }} **</h4>
+      {% if event.image %}
+        <img class="event-logo" src="{{ site.baseurl }}{{ event.image }}" alt="">
+      {% endif %}
+      <h4>Time/Date: {{ event.date | date: '%b %-d, %Y' }} -- {{ event.time }}</h4>
+      <h4>Location: {{ event.location }}</h4>
+      <h4>Address: {{ event.address }}</h4>
+      <p class="event-statement"> {{ event.description }}</p>
+    </div>
   </div>
 </section>
