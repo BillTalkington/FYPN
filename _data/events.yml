@@ -1,21 +1,22 @@
-- title: Chew On This
-  image:
-  date: 2016-05-18
-  time: 11:30AM-1:00PM
-  location: Fayette County Chamber of Commerce 
-  address: 65 W Main St. Suite 107, Uniontown, PA 15401
-  description: '“Not Your Father’s Financial Planner: Financial Planning in Today’s World”. Boxed lunches will be available for purchase.' 
-- title: Final Friday
-  image: /img/final_friday.jpg
-  date: 2016-05-27
-  time: 5:00-7:00PM
-  location: Hilton Garden Inn
-  address: 555 Synergy Drive, Uniontown, PA 15401
-  description: Join us for our relaxed, monthly get-together.
-- title: Block Party!
-  image:
+- title: FYPN Block Party proudly sponsored and hosted by First Niagara!
+  image: /img/block_party.jpg
   date: 2016-06-09
   time: 5:30-8:00PM
   location: First Niagara Bank
   address: 19 Beeson Ave, Uniontown, PA 15401
-  description: Join FYPN, the Chamber Board, and other local professionals at this great outdoor event!
+  description: Enjoy a couple of hours getting to know the members of the Fayette Young Professionals Network - one of the newest initiatives of the Fayette Chamber of Commerce. We'll have picnic food, refreshments, games, and more! Please call 724-437-4571 or email info@fayettechamber.com to RSVP!
+
+# - title: Chew On This
+#   image:
+#   date: 2016-05-18
+#   time: 11:30AM-1:00PM
+#   location: Fayette County Chamber of Commerce 
+#   address: 65 W Main St. Suite 107, Uniontown, PA 15401
+#   description: '“Not Your Father’s Financial Planner: Financial Planning in Today’s World”. Boxed lunches will be available for purchase.' 
+# - title: Final Friday
+#   image: /img/final_friday.jpg
+#   date: 2016-05-27
+#   time: 5:00-7:00PM
+#   location: Hilton Garden Inn
+#   address: 555 Synergy Drive, Uniontown, PA 15401
+#   description: Join us for our relaxed, monthly get-together.

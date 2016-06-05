@@ -142,6 +142,11 @@ section.members, section.upcoming-events > hr {
 
 .event-logo {
 	margin: 0.5em 0 1em;
+	width: 25vw;
+}
+
+.feature-event .event-logo {
+	width: 50vw
 }
 
 .copyright {
