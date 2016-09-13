@@ -1,8 +1,18 @@
-wing_thing:
-  title: FYPN Wing Thing
-  image: /img/wing_thing.jpg
-  date: 2016-07-09
-  time: 1:00-4:00PM
+pro_am:
+  title: Fayette Pro-Am Golf Tournament benefitting the FYPN Scholarship Fund
+  image:
+  date: 2016-09-24
+  time: Sep 26, 2016
   location: Uniontown Country Club
   address: 25 Bailey Lane, Uniontown, PA 15401
-  description: Join us for our signature summer event, FYPN Wing Thing! Come prepared for a great, family-fun event where you can judge which member-created wing sauce is the best!!
+  description: The Fayette Young Professionals Scholarship Fund benefits graduating high school seniors from Fayette County high schools who plan to attend post-secondary institutions. The goal of the FYPN scholarship is to enable students to further their education while encouraging them to later return to their hometown and make a positive impact as productive citizens.
+  link: http://www.fayetteproam.org/
+
+  # wing_thing:
+  # title: FYPN Wing Thing
+  # image: /img/wing_thing.jpg
+  # date: 2016-07-09
+  # time: 1:00-4:00PM
+  # location: Uniontown Country Club
+  # address: 25 Bailey Lane, Uniontown, PA 15401
+  # description: Join us for our signature summer event, FYPN 
