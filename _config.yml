@@ -2,9 +2,12 @@
 title:
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Proudly affiliated with the Fayette County Chamber of Commerce, the 
+  Fayette Young Professionals Network (FYPN) is the premiere organization 
+  for connecting, supporting, and growing Fayette County's young 
+  professional population! We accomplish our goals through regular casual 
+  meetings, professional networking and enrichment events, and by 
+  supporting the next generation of Fayette County's workforce.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://billtalkington.github.io" # the base hostname & protocol for your site
 
